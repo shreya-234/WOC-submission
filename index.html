@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>The Escape </title>
+    <link rel="stylesheet" href="index_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.jpeg">
+</head>
+
+<body>
+    <div class=" main ">
+        <!-- Instructions -->
+
+
+        <div class=" virus ">
+
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+            <img src="tenor.gif ">
+
+        </div>
+
+
+        <div class="title ">
+
+            <h1>
+                <p>The Escape </p>
+            </h1>
+
+        </div>
+        <div class=" button ">
+            <a href="game.html " class="btn1 "> Start</a>
+
+            <!--<a href="# " class="btn2 ">Instructions</a>-->
+            <div class="popup " id="popup-1 ">
+                <div class="overlay "></div>
+                <div class="content ">
+                    <div class="close-btn " onclick="togglePopup() ">×</div>
+                    <h1>Instructions<br><br></h1>
+                    <p>The boy starts running as the page loads. Simply press the up or down arrow key to escape from the virus. Press the up arrow to jump over the obstacles (that is, the virus) in your path. Use the down arrow key to lean back to avoid
+                        the virus. Collect masks, sanitizer and oxygen tanks to increase life and get points as reward. Wish you luck!
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn2 " onclick="togglePopup() ">Instructions</button>
+
+
+        </div>
+
+    </div>
+    <script>
+        function togglePopup() {
+            document.getElementById("popup-1 ").classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html
